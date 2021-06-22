@@ -1,7 +1,5 @@
 package algoritthm.practice;
 
-import org.springframework.util.StringUtils;
-
 public class Test01 {
 
     /*
@@ -11,22 +9,33 @@ public class Test01 {
     * */
 
     public static boolean isPalindrome(int x) {
-        if(x<0){
+        if (x < 0) {
             return false;
         }
         String number = String.valueOf(x);
-        if (number.length() %2==0){
-
-        }else {
-
+        Integer len = number.length();
+        for (int i = 0; i < len / 2; i++) {
+            if (!number.substring(i, i + 1).equals(number.substring(len - i - 1, len - i))) {
+                return false;
+            }
         }
         return true;
 
     }
 
     public static void main(String[] args) {
-        Integer x = 121;
-        System.out.println("判断["+x+"]是否为回文数的结果为"+isPalindrome(x));
+        Integer x1 = 123;
+        System.out.println("判断["+x1+"]是否为回文数的结果为"+isPalindrome(x1));
+        Integer x2 = 121;
+        System.out.println("判断["+x2+"]是否为回文数的结果为"+isPalindrome(x2));
+        Integer x3 = -11;
+        System.out.println("判断["+x3+"]是否为回文数的结果为"+isPalindrome(x3));
+        Integer x4 = 101;
+        System.out.println("判断["+x4+"]是否为回文数的结果为"+isPalindrome(x4));
+        Integer x5 = -101;
+        System.out.println("判断["+x5+"]是否为回文数的结果为"+isPalindrome(x5));
+        Integer x6 = 123454321;
+        System.out.println("判断["+x6+"]是否为回文数的结果为"+isPalindrome(x6));
     }
 
 }
