@@ -6,11 +6,46 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="wincloud-commons-util" />
+        <module name="wincloud-commons-event" />
+        <module name="wincloud-commons-fsm" />
+        <module name="wincloud-service-demo" />
+        <module name="wincloud-service-identity" />
         <module name="algorithm-practice" />
+        <module name="wincloud-commons-exception" />
+        <module name="wincloud-commons-stream" />
+        <module name="wincloud-commons-engine" />
+        <module name="eurekaDemo" />
+        <module name="wincloud-commons-rest" />
+        <module name="wincloud-commons-cache" />
+        <module name="wincloud-service-gateway" />
+        <module name="Spring-activiti" />
+        <module name="wincloud-commons-rest-client" />
+        <module name="wincloud-service-notify" />
+        <module name="wincloud-service-configserver" />
+        <module name="wincloud-service-registry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="algorithm-practice" target="1.8" />
+      <module name="eurekaDemo" target="8" />
+      <module name="Spring-activiti" target="1.8" />
+      <module name="wincloud-commons-cache" target="1.8" />
+      <module name="wincloud-commons-engine" target="1.8" />
+      <module name="wincloud-commons-event" target="1.8" />
+      <module name="wincloud-commons-exception" target="1.8" />
+      <module name="wincloud-commons-fsm" target="1.8" />
+      <module name="wincloud-commons-rest" target="1.8" />
+      <module name="wincloud-commons-rest-client" target="1.8" />
+      <module name="wincloud-commons-stream" target="1.8" />
+      <module name="wincloud-commons-util" target="1.8" />
+      <module name="wincloud-core" target="1.8" />
+      <module name="wincloud-service-configserver" target="1.8" />
+      <module name="wincloud-service-demo" target="1.8" />
+      <module name="wincloud-service-gateway" target="1.8" />
+      <module name="wincloud-service-identity" target="1.8" />
+      <module name="wincloud-service-notify" target="1.8" />
+      <module name="wincloud-service-registry" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

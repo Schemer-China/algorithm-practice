@@ -4,6 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../Spring-activiti/pom.xml" />
+        <option value="$PROJECT_DIR$/../eurekaDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../../file_doc/02代码/wincloud-core/pom.xml" />
       </list>
     </option>
   </component>
